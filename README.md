@@ -78,7 +78,8 @@ molecube offers you:
 
 Installing molecube is pretty easy and straightforward.
 
-### Installation
+### Installation ( You must have node.js installed )
+
 ##### To use with yarn do:
 yarn global add molecube
 ##### To use with npm do:
