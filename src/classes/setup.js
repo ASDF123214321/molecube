@@ -119,7 +119,7 @@ export class setup {
 
         spinner.success({ text: "Deleted the folder!" });
       } else {
-        return console.log(chalk.red("Exitted because folder wasn't deleted"));
+        return console.log("❌Exited because folder was not deleted");
       }
     }
     await this.createDirectories();
@@ -141,7 +141,7 @@ export class setup {
         });
         install.on("error", (error) => {
           console.log(error);
-          spinner.error({ text: "Something went wrong!" });
+          spinner.error({ text: "❌\x1b[41mSomething went wrong!" });
         });
         break;
       }
@@ -168,7 +168,7 @@ export class setup {
         });
         install.on("error", (error) => {
           console.log(error);
-          spinner.error({ text: "Something went wrong!" });
+          spinner.error({ text: "❌\x1b[41mSomething went wrong!" });
         });
         break;
       }
