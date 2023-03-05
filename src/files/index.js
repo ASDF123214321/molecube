@@ -30,7 +30,7 @@ export default {
       "eventHandler.js": eventHandler,
     },
     "index.js": indexutil,
-    "warning.txt": "It's not recommended to change code in util folder",
+    "warning.txt": "⚠️\x1b[43mIt is not recommended to change code in util folder.",
   },
   "index.js": index,
 };
